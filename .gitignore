@@ -1,3 +1,12 @@
+# My additions 
+*.idea
+Datasets
+Results
+Unused_Files
+*.zip
+*.mp4
+*.cfg
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
