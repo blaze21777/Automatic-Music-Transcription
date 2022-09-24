@@ -20,4 +20,4 @@ The **Display_MFCC.py** script can be used to the spectrograms and MFCC of the s
 ## Running the Models
 
 ---
-**CNN.py** and **LSTM.py** are used to create the models and save the models, these model can then be used for prediction by running **CNN_Predict.py** or **LSTM_Predict**
+**CNN.py** and **LSTM.py** are used to create the models and save the models, these model can then be used for prediction by running **CNN_Predict.py** or **LSTM_Predict.py**
