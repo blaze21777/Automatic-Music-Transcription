@@ -8,8 +8,12 @@ pandas = "*"
 scikit-learn = "*"
 tensorflow-gpu = "==2.3.0"
 seaborn = "*"
+librosa = "*"
+ipykernel = "*"
 
 [dev-packages]
+ipytest = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.7"
