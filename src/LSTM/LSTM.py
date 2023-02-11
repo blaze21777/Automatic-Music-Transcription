@@ -12,10 +12,10 @@ from tensorflow.keras.utils import plot_model
 from tensorflow.keras.wrappers.scikit_learn import KerasClassifier
 
 
-DATASET_PATH = "Dataset_JSON_Files/Simulated_Dataset_Matlab_12frets_1.json"
-MODEL_PATH = "LSTM_Model_Files/LSTM_Model_Simulated_Dataset_Matlab_12frets_1.h5"
+DATASET_PATH = "src/Datasets/Dataset_JSON_Files/Simulated_Dataset_Matlab_12frets_1.json"
+MODEL_PATH = "src/LSTM/LSTM_Model_Files/LSTM_Model_Simulated_Dataset_Matlab_12frets_1.h5"
 PLOT_TITLE = "Simulated_Dataset_Matlab_12frets_1"  # Dataset name to be used in graph titles
-RESULTS_PATH = "Results/LSTM_Results/"
+RESULTS_PATH = "LSTM_Results/"
 MODEL_NAME = "Simulated_Dataset_Matlab_12frets_1"
 
 # tweaking model
@@ -24,7 +24,7 @@ NUMBER_OF_NOTES = 37  # number of notes to classify
 LEARNING_RATE = 0.0001
 LOSS = "sparse_categorical_crossentropy"
 BATCH_SIZE = 4
-EPOCHS = 200
+EPOCHS = 10
 
 param_grid = {"batch_size": [4, 8, 16, 32],
               "epochs": [25, 50, 75, 100, 125, 150],

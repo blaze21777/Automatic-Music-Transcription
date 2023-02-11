@@ -36,8 +36,3 @@ plt.ylabel("Frequency (Hz)")
 plt.xlabel("Time (s)")
 plt.rc('font', size=50) #controls default text size
 plt.show()
-
-
-
-
-

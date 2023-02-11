@@ -6,6 +6,12 @@ Unused_Files
 *.zip
 *.mp4
 *.cfg
+CNN_Results/
+LSTM_Results/
+Test_Clipping.m
+testing_clipping.wav
+Transcriptions/
+.vscode/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
